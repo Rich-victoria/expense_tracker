@@ -1,0 +1,126 @@
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #d7d7d7;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    
+}
+
+nav {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #AF2E2B;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 2rem;
+    margin: auto;
+    max-width: 800px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form div {
+    margin-bottom: 1rem;
+}
+
+label {
+    margin-bottom: 0.5rem;
+}
+
+input, textarea, button {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #AF2E2B;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #AF2E2B;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    section {
+        padding: 1rem;
+    }
+
+    form div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    label, input, textarea, button {
+        width: 100%;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin: 0.5rem 0;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        font-size: 1.2rem;
+        padding: 0.5rem 0;
+    }
+
+    nav a {
+        margin: 0.25rem 0;
+    }
+
+    section {
+        padding: 0.5rem;
+    }
+}
